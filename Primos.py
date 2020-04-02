@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 def primoss():
     primos = ""
-    for num in range(1,548):  #contador dos 100 primeiros números primos!
+    for num in range(1,542):  #contador dos 100 primeiros números primos!
         count = 0
         for numb in range(1,num+1):  #aqui é pra ver quantas vezes é dividido até chegar nele mesmo.
             if num % numb == 0:     # se ele for divisivel conta 1
